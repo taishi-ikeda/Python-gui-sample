@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
-import status_handler
-import lottery_class as lc
+from . import status_handler
+from . import lottery_class as lc
 
 class gui_manager:
     __slots__=("_status_handler",

@@ -1,4 +1,4 @@
-import gui_manager as gm
+import gui.gui_manager as gm
 
 gui=gm.gui_manager()
 gui.run()
